@@ -1,6 +1,6 @@
 const { Client } = require('pg');
 
-const connectionString = process.env.DATABASE_URL || 'https://localhost:5432/gamestore';
+const connectionString = process.env.DATABASE_URL || 'postgres://uurmucif:pxZ0s0sLBss_KBvmKzyJnuNvqM_ggL6f@bubble.db.elephantsql.com/uurmucif';
 
 const client = new Client({
   connectionString,

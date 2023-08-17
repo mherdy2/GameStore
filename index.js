@@ -19,7 +19,7 @@ const client = require('./db/client');
 client.connect();
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello Maui!');
 });
 
 // Router: /api
